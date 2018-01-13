@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/small_cell_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:visibility="invisible"
+            android:focusable="true"
+            android:id="@+id/cell_1"
+            android:src="@mipmap/cell1"
+            android:layout_width="@dimen/px39"
+            android:layout_height="@dimen/px39" />
+        <ImageView
+            android:visibility="invisible"
+            android:id="@+id/cell_2"
+            android:src="@mipmap/cell2"
+            android:layout_width="@dimen/px39"
+            android:layout_height="@dimen/px39" />
+        <ImageView
+            android:visibility="invisible"
+            android:id="@+id/cell_3"
+            android:src="@mipmap/cell3"
+            android:layout_width="@dimen/px39"
+            android:layout_height="@dimen/px39" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:visibility="invisible"
+            android:id="@+id/cell_4"
+            android:src="@mipmap/cell4"
+            android:layout_width="@dimen/px39"
+            android:layout_height="@dimen/px39" />
+        <ImageView
+            android:visibility="invisible"
+            android:id="@+id/cell_5"
+            android:src="@mipmap/cell5"
+            android:layout_width="@dimen/px39"
+            android:layout_height="@dimen/px39" />
+        <ImageView
+            android:visibility="invisible"
+            android:id="@+id/cell_6"
+            android:src="@mipmap/cell6"
+            android:layout_width="@dimen/px39"
+            android:layout_height="@dimen/px39" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:visibility="invisible"
+            android:id="@+id/cell_7"
+            android:src="@mipmap/cell7"
+            android:layout_width="@dimen/px39"
+            android:layout_height="@dimen/px39" />
+        <ImageView
+            android:visibility="invisible"
+            android:id="@+id/cell_8"
+            android:src="@mipmap/cell8"
+            android:layout_width="@dimen/px39"
+            android:layout_height="@dimen/px39" />
+        <ImageView
+            android:visibility="invisible"
+            android:id="@+id/cell_9"
+            android:src="@mipmap/cell9"
+            android:layout_width="@dimen/px39"
+            android:layout_height="@dimen/px39" />
+    </LinearLayout>
+</LinearLayout>

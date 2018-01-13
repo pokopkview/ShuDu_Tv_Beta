@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/rl_items"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:tag="1"
+        android:id="@+id/iv_1"
+        android:src="@mipmap/black_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:tag="2"
+        android:layout_toRightOf="@id/iv_1"
+        android:id="@+id/iv_2"
+        android:src="@mipmap/black_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:tag="3"
+        android:layout_toRightOf="@id/iv_2"
+        android:id="@+id/iv_3"
+        android:src="@mipmap/black_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:tag="4"
+        android:layout_below="@id/iv_1"
+        android:id="@+id/iv_4"
+        android:src="@mipmap/black_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:tag="5"
+        android:layout_toRightOf="@id/iv_4"
+        android:layout_below="@id/iv_2"
+        android:id="@+id/iv_5"
+        android:src="@mipmap/black_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:tag="6"
+        android:layout_toRightOf="@id/iv_5"
+        android:layout_below="@id/iv_3"
+        android:id="@+id/iv_6"
+        android:src="@mipmap/black_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:tag="7"
+        android:layout_below="@id/iv_4"
+        android:id="@+id/iv_7"
+        android:src="@mipmap/black_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:tag="8"
+        android:layout_toRightOf="@id/iv_7"
+        android:layout_below="@id/iv_5"
+        android:id="@+id/iv_8"
+        android:src="@mipmap/black_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:tag="9"
+        android:layout_toRightOf="@id/iv_8"
+        android:layout_below="@id/iv_6"
+        android:id="@+id/iv_9"
+        android:src="@mipmap/black_9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_select"
+        android:layout_below="@+id/rl_items"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/bt_fillin"
+            android:text="填入"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_toRightOf="@+id/bt_fillin"
+            android:id="@+id/bt_clear"
+            android:text="清除"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_below="@+id/bt_fillin"
+            android:id="@+id/bt_mark"
+            android:text="标记"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_below="@+id/bt_fillin"
+            android:layout_toRightOf="@+id/bt_mark"
+            android:id="@+id/bt_cheat"
+            android:text="提示"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

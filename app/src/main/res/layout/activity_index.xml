@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="zhang.great.tv.shudu_tv_beta.IndexActivity">
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:id="@+id/main_container"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/tv_newgame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/new_game" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/main_container"
+        android:text="@string/time" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2"
+        android:text="00:00" />
+
+    <TextView
+        android:id="@+id/tv_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_newgame"
+        android:layout_alignBottom="@+id/tv_newgame"
+        android:layout_toStartOf="@+id/main_container"
+        android:text="@string/leve_1" />
+
+    <ImageView
+        android:id="@+id/iv_pause"
+        android:layout_width="@dimen/px80"
+        android:layout_height="@dimen/px80"
+        android:layout_alignEnd="@+id/tv_time"
+        android:layout_below="@+id/textView2"
+        android:layout_marginEnd="26dp"
+        android:src="@mipmap/stop23" />
+
+    <TextView
+        android:id="@+id/tv_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_level"
+        android:layout_alignBottom="@+id/tv_level"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/px60"
+        android:text="@string/record" />
+
+
+</RelativeLayout>

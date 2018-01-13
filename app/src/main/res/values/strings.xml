@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ShuDu_Tv_Beta</string>
+    <string name="new_game">新游戏</string>
+    <string name="leve_1">入  门  级</string>
+    <string name="leve_2">初      级</string>
+    <string name="leve_3">中      级</string>
+    <string name="leve_4">高      级</string>
+    <string name="leve_5">专  家  级</string>
+    <string name="leve_6">变  态  级</string>
+    <string name="time">计时：</string>
+    <string name="record">纪录</string>
+    <string name="again">重新开始</string>
+
+</resources>
